@@ -1,0 +1,71 @@
+body{
+    margin: 50px;
+    padding: 0;
+    background-color: lightgrey;
+    background-size: 200% 200%;
+    position: relative;
+    font-family:'Poppins', sans-serif;
+}
+
+
+.adviserform input[type="submit"]{
+    border:0;
+    background-color: #690a99;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 3px solid #d4d4ce;
+    padding: 10px 60px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family:'Poppins', sans-serif;
+
+}
+
+.adviserform input[type="text"]{
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px 25px;
+    font-family:'Poppins', sans-serif;
+    display: block;
+    transition: 0.25s;
+
+}
+
+.adviserform input[type = "text"]:focus{
+    border-color: #02457a;
+}
+
+
+.adviserform input[type = "submit"]:hover{
+    background: #0e71f1;
+}
+
+h4{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.adviserform table{ 
+    text-align: left;
+    color: black;
+    background-color: #00a6c0;
+    border-collapse: collapse;
+    font-size: 15px;
+    font-family:'Poppins', sans-serif;
+}
+
+
+.adviserform select{
+    border-radius: 20px;
+    font-size: 15px;
+    font-family:'Poppins', sans-serif;
+}

@@ -1,0 +1,105 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient( #4b086d, #acc0fe);
+    width: 100%;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.cliniclogo img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: -70px;
+    left: calc(50% - 60px);
+}
+
+.loginbox{
+    width: 320px;
+    height: 380px;
+    background-color: #4b086d;
+    color: white;
+    top: 55%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: content-box;
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+.loginbox h1{
+    margin: 70;
+    padding: 0 0 5px;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+
+
+
+.loginbox input[type = "text"], .loginbox input[type = "password"]{
+    border:0;
+    background: #d4d4ce;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #D4D4CE;
+    padding: 10px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.loginbox input[type = "text"]:focus, .loginbox input[type = "password"]:focus{
+    width: 280px;
+    border-color: #287094;
+}
+
+.loginbox input[type ="submit"]{
+    border:0;
+    background-color: #690a99;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #d4d4ce;
+    padding: 10px 90px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.loginbox input[type = "submit"]:hover{
+    background: #0e71f1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
